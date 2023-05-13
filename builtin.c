@@ -10,7 +10,7 @@ int _myexit(info_t *info)
 {
 	int exitcheck;
 
-	if (info->argv[1]) /* If there is an exit arguement */
+	if (info->argv[1])
 	{
 		exitcheck = _erratoi(info->argv[1]);
 		if (exitcheck == -1)
@@ -29,7 +29,7 @@ int _myexit(info_t *info)
 }
 
 /**
- * _mycd - changes the current directory
+ * _mycd - changes the current directory.
  * @info: Structure containing potential arguments.
  * Return: Always 0
  */
