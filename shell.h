@@ -127,7 +127,7 @@ int loophsh(char **);
 
 /* toem_errors.c */
 void e_puts(char *);
-int _eputchar(char);
+int e_putchar(char);
 int _putfd(char c, int fd);
 int _putsfd(char *str, int fd);
 
